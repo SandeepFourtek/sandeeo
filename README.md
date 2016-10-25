@@ -11,7 +11,6 @@
 
 
 
-![untitled](https://cloud.githubusercontent.com/assets/16163749/19684073/dd3b50e6-9ad2-11e6-8a0c-f4dbd04e7b15.png)
 
 #### Taobao Ring System
 
@@ -407,6 +406,7 @@ taobao.com, tmal.com,1688.com, jd.com etc..
 ######
 
 
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19684073/dd3b50e6-9ad2-11e6-8a0c-f4dbd04e7b15.png)
 
 
 _Explanation_
@@ -432,6 +432,9 @@ _P-6 Get JSON in response_
 _P-7 Append response with DOM element and show in front end HTML._ _We should have retry strategies, because sometimes we&#39;ll get empty page or incorrect page for the cookie or other reasons, we have to crawling again_
 
 **Crawling Process from Admin**
+
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685176/c9fd2cc4-9ad8-11e6-953c-14f35459ecd4.png)
+
 
 _Explanation_
 
@@ -489,7 +492,7 @@ Diagram order state transition
 
 ####
 
-
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685228/28d18da8-9ad9-11e6-8cf7-080465344477.png)
 
 ###### Explanation:  Once the admin receives the order (order),Admin will recevie the email of the order we can switch off this email notification; otherwise we&#39;ll receive hundreds of emails, Admin will assign a admin agent for this order,All employees can assign orders to any one else. If order is in stock , than the user will go for the 1 payment directly.
 
@@ -624,6 +627,7 @@ To make easy flow of information between client and support staff.
 ###### Explanation:  Data flow designed below
 
 
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685274/61be9336-9ad9-11e6-8908-eadccf8a34ee.png)
 
 
 _Explanation_
@@ -655,15 +659,13 @@ _More requirements about tickets:_
 7. _Convert emails to tickets._
 8. _Support flag to mark tickets. (Because we have lots of tickets)_
 
-_You can refer our current 3_
-
-# rd
- _part Ticket system._ _We only need a simpler implement__, but easy to use._
+_You can refer our current 3rd part Ticket system._ _We only need a simpler implement__, but easy to use._
 
 
 
 
 
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685350/afced86a-9ad9-11e6-8318-431312527559.png)
 
 
 
@@ -702,6 +704,8 @@ _To make payment without using actual payment gateway._
 
 _Explanation:  Data flow designed below_
 
+
+
 _Coin wallet system , It is designed in Three part ._
 
 _1)Coin wallet system_
@@ -714,7 +718,7 @@ _3) Withdraw wallet money in user account._
 
 _Actually here we concentrate on only coin system .. We will make complete order flow if you required. Because you already has given us order diagram._
 
-
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685499/996c6d2a-9ada-11e6-803e-207652557638.png)
 
 _Explanation_ _(You missed coin with order process)_
 
@@ -775,6 +779,7 @@ Here Wallet is related to coin system. This digram include when user wants to pa
 1. if user is paying his order amount with coin:- If user don&#39;t use full amount that time we need to calculate actual price that customer wants to redeemed from is coins.
 2. (update wallet means update coin system) If user is paying with coin and after that he is not satisfied with that amount. That time he can reuse his wallet
 
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685548/db8c4b30-9ada-11e6-8f2b-6d75a0e313a4.png)
 
 _Explanation_
 
@@ -798,6 +803,9 @@ _                  If Customer has more amount in his wallet then he/she can pay
  _     Either customer is having amount in his wallet or not. That time customer can pay with paypal as well_
 
 **Withdraw Wallet Money in his account**
+
+
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19685609/1b525fc0-9adb-11e6-87a0-16c8cbbfd721.png)
 
 _P1 Go to wallet
 P2 check wallet, if wallet having money then_
