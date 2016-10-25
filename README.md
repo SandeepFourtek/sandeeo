@@ -668,11 +668,72 @@ _You can refer our current 3rd part Ticket system._ _We only need a simpler impl
 ![untitled](https://cloud.githubusercontent.com/assets/16163749/19685350/afced86a-9ad9-11e6-8318-431312527559.png)
 
 
+### [_CONDITION AND ACTION_]
+
+![condition and action](https://cloud.githubusercontent.com/assets/16163749/19688274/b1fdb7d4-9ae6-11e6-9b60-2fb09b851156.png)
+
+
+_1) If email contains same subject then that we given then admin can assign two things those are.
+Assigned automatically to agent.
+Deleted automatically
+
+
+    
+For eg: If the email has subject  ‘invoice ‘ then the ticket is assigned to agent those are handling invoice .
+
+
+_2) If email condition has same email ID on which we want to perform any action then we use this condition and action
+
+
+For eg: if email ID is xxxxx@xxx.xx then the ticket is assigned to admin.
+
+
+_3) Requester email- If contains subject as xxxx then the ticket can be assigned to the agent or can perform delete operation
+If requester email contain any email then the ticket can be assigned to the agent or can perform delete operation
+
+### [_TICKET STATUS_]
+
+Section a)
+
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19688828/db02235c-9ae8-11e6-8c0b-fbb930ea75ed.png)
+
+
+Section b)
+
+
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19688874/09eccda2-9ae9-11e6-82ba-480f7999c85f.png)
+
+            After auto-generated ticket.
+When ticket comes first time in admin it’s status is unassigned and ticket will represent as NEW
+If ticket is not assigned to any agent after fixed time then the status of the ticket  is ‘pending’
+If ticket is assigned automatically to agent or assigned by admin then status of ticket is Assigned
+If ticket is solved then the status is ‘solved’
+If ticket is not solved and take time then agent can change status of  ticket to ‘hold’.
+If ticket is successfully solved then agent can change status of  ticket to closed
+If the query seems to be still unsolved and ticket status is closed then we can give ticket status as  ‘Reopen’ and Assign to agent after that same process will followed
 
 
 
+### [_HOW TICKET SYSTEM WORKS_]
 
-_4) Wallet coin System_
+![untitled](https://cloud.githubusercontent.com/assets/16163749/19688951/57642e68-9ae9-11e6-84c9-ffa994fdd28a.png)
+
+If user’s login is successful then go to my account, then from the order list user can see the list of all orders and then raise ticket.
+
+If user’s login isn’t successful then process is stopped.
+
+In the ticket user will fill all these information  which includes subset/summary,select order,select multiple item,file description.
+
+If user submit all these information then a mail is generated automatically and the user receive a ticket Id and auto-generated mail.
+ 
+### These are other functionality that use have:- 
+get notification on user’s account
+can see all ticket details in my account
+User can reply on ticket using email or from my account
+Using settings, user can off the notification.
+
+
+### 4) Wallet coin System_
 
 _ __Classification_
 
